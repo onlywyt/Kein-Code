@@ -1,0 +1,57 @@
+2022-01-14 13:48:52.669 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95567 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:48:52.671 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:48:53.766 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.687 seconds (JVM running for 2.568)
+2022-01-14 13:49:46.149 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95582 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:49:46.150 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:49:47.137 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.349 seconds (JVM running for 2.124)
+2022-01-14 13:49:58.518 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95585 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:49:58.519 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:49:59.454 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.296 seconds (JVM running for 2.153)
+2022-01-14 13:50:40.491 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95591 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:50:40.492 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:50:41.423 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.279 seconds (JVM running for 2.023)
+2022-01-14 13:54:23.616 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95621 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:54:23.617 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:54:24.712 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.497 seconds (JVM running for 2.357)
+2022-01-14 13:57:24.348 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95659 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 13:57:24.349 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 13:57:25.358 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.369 seconds (JVM running for 2.13)
+2022-01-14 14:16:16.604 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95761 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:16:16.605 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:16:17.666 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.443 seconds (JVM running for 2.294)
+2022-01-14 14:16:59.607 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95771 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:16:59.608 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:17:00.814 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.54 seconds (JVM running for 3.014)
+2022-01-14 14:18:03.186 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95779 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:18:03.187 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:18:04.214 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.373 seconds (JVM running for 2.133)
+2022-01-14 14:18:24.928 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95781 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:18:24.929 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:18:25.893 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.322 seconds (JVM running for 2.077)
+2022-01-14 14:19:10.620 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95785 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:19:10.620 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:19:11.596 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.313 seconds (JVM running for 2.056)
+2022-01-14 14:19:53.920 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95803 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:19:53.921 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:19:54.932 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.341 seconds (JVM running for 2.095)
+2022-01-14 14:24:07.405 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95821 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:24:07.406 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:24:08.482 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.418 seconds (JVM running for 2.152)
+2022-01-14 14:25:02.212 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95830 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:25:02.213 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:25:03.593 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.725 seconds (JVM running for 2.74)
+2022-01-14 14:26:23.221 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95843 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:26:23.222 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:26:24.199 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.315 seconds (JVM running for 2.098)
+2022-01-14 14:27:43.556 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95846 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:27:43.557 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:27:44.771 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.56 seconds (JVM running for 2.523)
+2022-01-14 14:31:40.064 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95859 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:31:40.065 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:31:41.262 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.62 seconds (JVM running for 2.537)
+2022-01-14 14:31:45.537 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95861 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:31:45.538 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:31:46.677 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.582 seconds (JVM running for 2.557)
+2022-01-14 14:31:51.409 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Starting LogbackdemoApplicationTests using Java 1.8.0_301 on yingtao with PID 95871 (started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-14 14:31:51.410 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - No active profile set, falling back to default profiles: default
+2022-01-14 14:31:52.520 [main] INFO  c.example.logbackdemo.LogbackdemoApplicationTests - Started LogbackdemoApplicationTests in 1.559 seconds (JVM running for 2.498)
