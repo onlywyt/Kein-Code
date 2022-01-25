@@ -1,5 +1,5 @@
-
-logging:
-  config: src/main/resources/logback-spring.xml
-server:
-  port: 9999
+#
+#logging:
+#  config: src/main/resources/logback-spring.xml
+#server:
+#  port: 9999
