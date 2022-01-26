@@ -1,4 +1,4 @@
-package com.example.logbackdemo.com.test.source.thread;
+package com.example.logbackdemo.com.test.source.thread.interrupt;
 
 /**
  * @program: source-demo

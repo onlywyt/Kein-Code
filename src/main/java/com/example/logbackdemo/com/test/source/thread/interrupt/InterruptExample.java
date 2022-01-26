@@ -1,4 +1,4 @@
-package com.example.logbackdemo.com.test.source.thread;
+package com.example.logbackdemo.com.test.source.thread.interrupt;
 
 import java.util.concurrent.TimeUnit;
 
