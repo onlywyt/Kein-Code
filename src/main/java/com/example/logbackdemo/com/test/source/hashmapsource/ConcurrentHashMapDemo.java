@@ -15,7 +15,7 @@ public class ConcurrentHashMapDemo {
     private static final ConcurrentMap<String, Long> USER_ACCESS_COUNT = new ConcurrentHashMap<>();
 
     public static void main(String[] args) {
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i <= 10000; i++) {
             MyThread1 myThread = new MyThread1(USER_ACCESS_COUNT,"mic");
             myThread.start();
             MyThread1 myThread1 = new MyThread1(USER_ACCESS_COUNT,"mic");
