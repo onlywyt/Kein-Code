@@ -18,11 +18,15 @@ public class ApplyLock {
     public synchronized boolean applyLock(Resource resource1,Resource resource2){
         if (listOf.contains(resource1) || listOf.contains(resource2)){
             return false;
-        }else {
-            listOf.add(resource1);
-            listOf.add(resource2);
+        }else if (System.identityHashCode(resource1) < System.identityHashCode(resource2)) { //保持顺序性
             return true;
         }
+//        else {//保持顺序性
+//            listOf.add(resource1);
+//            listOf.add(resource2);
+//            return true;
+//        }
+        return false;
     }
 
     public synchronized void freeListOf(Resource resource1,Resource resource2){
