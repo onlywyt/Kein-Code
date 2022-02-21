@@ -12,17 +12,18 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import java.net.InetSocketAddress;
 
 /**
- * @program: netty-demo
- * @description: NettyAction客户端实例代码
- * @ClassName：NettyClioent
+ * @program: source-demo
+ * @description:
+ * @ClassName：EchoNettyClient1
  * @author: Mr.Wang
- * @create: 2022-01-14 16:01
+ * @create: 2022-02-18 17:27
  **/
-public class EchoNettyClient {
+public class EchoNettyClient1 {
+
     private final  String host;
     private final  int port;
 
-    public EchoNettyClient(String host, int port) {
+    public EchoNettyClient1(String host, int port) {
         this.host = host;
         this.port = port;
     }
@@ -62,6 +63,7 @@ public class EchoNettyClient {
     }
 
     public static void main(String[] args) throws Exception {
-        new EchoNettyClient("127.0.0.1",9991).start();
+        new EchoNettyClient("127.0.0.1",9999).start();
     }
 }
+

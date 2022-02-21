@@ -5,6 +5,7 @@ import com.example.logbackdemo.com.test.source.thread.threadpool.monitor.ThreadP
 import com.example.logbackdemo.com.test.source.thread.threadpool.monitor.ThreadPoolExecutorMonitor;
 import com.example.logbackdemo.com.test.source.thread.threadpool.monitor.ThreadPoolForMonitorManager;
 import com.example.logbackdemo.com.test.source.thread.threadpool.monitor.ThreadPoolProperties;
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +13,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Random;
 
+@EnableAdminServer
 @EnableConfigurationProperties(ThreadPoolConfigurationProperties.class)
 @SpringBootApplication
 @RestController

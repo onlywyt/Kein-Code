@@ -20,6 +20,8 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf>{
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("获取到与ChannelHandlerContext相关联的ChannelPipeline 的引用:"+ctx.pipeline());
+        System.out.println(" 获取到与ChannelHandlerContext相关联的Channel 的引用:"+ctx.channel());
         //当被通知Channel是活跃的时候，发送一条消息
         ctx.writeAndFlush(Unpooled.copiedBuffer("媳妇，你真棒啊！！", StandardCharsets.UTF_8));
     }
