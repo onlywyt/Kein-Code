@@ -1,4 +1,4 @@
-package com.example.logbackdemo.com.designmuster;
+package com.example.logbackdemo.com.designmuster.factory;
 
 /**
  * @program: source-demo

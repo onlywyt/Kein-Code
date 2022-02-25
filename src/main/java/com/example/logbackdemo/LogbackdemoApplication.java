@@ -48,6 +48,13 @@ public class LogbackdemoApplication {
     }
 
 
+    public static void main(String[] args) {
+        ConfigurableApplicationContext context = SpringApplication.run(LogbackdemoApplication.class, args);
+        MyEventPublisher publisher = context.getBean(MyEventPublisher.class);
+        publisher.publishEvent();
+    }
+
+
 //    @GetMapping("/loop")
 //    public String dumpWhile(){
 //        new Thread(new WhileThrad()).start();
@@ -120,10 +127,6 @@ public class LogbackdemoApplication {
 //        return mav;
 //    }
 
-    public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(LogbackdemoApplication.class, args);
-        MyEventPublisher publisher = context.getBean(MyEventPublisher.class);
-        publisher.publishEvent();
-    }
+
 
 }
