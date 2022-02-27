@@ -7,46 +7,31 @@ import java.nio.file.Paths;
 
 /**
  * @program: source-demo
- * @description: 自定义类加载器；基于磁盘
- * @ClassName：MyClassLoader
+ * @description:
+ * @ClassName：MLoader
  * @author: Mr.Wang
- * @create: 2022-02-25 10:45
+ * @create: 2022-02-25 14:34
  **/
-public class MyClassLoader extends ClassLoader {
+public class MLoader extends ClassLoader {
 
 
     //定义默认的class存放路径
-    private final static Path DEFAULT_CLASS_PATH = Paths.get("/Users/yingtaowang/Desktop/classloader1");
+    private final static Path DEFAULT_CLASS_PATH = Paths.get("/Users/yingtaowang/Desktop/Hello");
+
     private final Path classDir;
 
-    //使用默认的class路径
-    public MyClassLoader() {
-        super();
+    public MLoader() {
         this.classDir = DEFAULT_CLASS_PATH;
     }
 
-    //允许传递指定的class路径
-    public MyClassLoader(Path classDir){
-        super();
+    public MLoader(Path classDir, ClassLoader parent){
+
         this.classDir = Paths.get(String.valueOf(classDir));;
     }
 
-    //允许传递指定的class路径和父类加载器
-    public MyClassLoader(Path classDir, ClassLoader parent){
-        super();
-        this.classDir = Paths.get(String.valueOf(classDir));;
-    }
-
-    /**
-     *  根据类的全名称转换成文件的全路径重写findClass方法
-     * @param name
-     * @return
-     * @throws ClassNotFoundException
-     */
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         byte[] classBytes = this.readClassBytes(name);
-        //为null则抛出异常
         if(null == classBytes || classBytes.length == 0){
             throw new ClassNotFoundException("Cant not load the calss" + name);
         }
