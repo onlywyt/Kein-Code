@@ -1,5 +1,5 @@
-2022-01-17 09:50:54.110 [main] INFO  com.example.logbackdemo.LogbackdemoApplication - Starting LogbackdemoApplication using Java 1.8.0_301 on yingtao with PID 12873 (/Users/yingtaowang/Documents/个人/code/wyt/logbackdemo/target/classes started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
-2022-01-17 09:50:54.113 [main] INFO  com.example.logbackdemo.LogbackdemoApplication - No active profile set, falling back to default profiles: default
+2022-01-17 09:50:54.110 [main] INFO  LogbackdemoApplication - Starting LogbackdemoApplication using Java 1.8.0_301 on yingtao with PID 12873 (/Users/yingtaowang/Documents/个人/code/wyt/logbackdemo/target/classes started by yingtaowang in /Users/yingtaowang/Documents/个人/code/wyt/logbackdemo)
+2022-01-17 09:50:54.113 [main] INFO  LogbackdemoApplication - No active profile set, falling back to default profiles: default
 2022-01-17 09:50:54.735 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
 2022-01-17 09:50:54.741 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
 2022-01-17 09:50:54.742 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
@@ -9,7 +9,7 @@
 2022-01-17 09:50:55.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
 2022-01-17 09:50:55.046 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
 2022-01-17 09:50:55.048 [SimpleAsyncTaskExecutor-9] INFO  c.e.l.com.spring.evevt.MyAnnotationEventListener1 - 监听自定义事件ContextRefreshedEvent
-2022-01-17 09:50:55.050 [main] INFO  com.example.logbackdemo.LogbackdemoApplication - Started LogbackdemoApplication in 1.325 seconds (JVM running for 1.691)
+2022-01-17 09:50:55.050 [main] INFO  LogbackdemoApplication - Started LogbackdemoApplication in 1.325 seconds (JVM running for 1.691)
 2022-01-17 09:50:55.053 [main] INFO  c.e.logbackdemo.com.spring.evevt.MyEventPublisher - 开始发布自定义事件MyEvent
 2022-01-17 09:50:55.053 [SimpleAsyncTaskExecutor-20] INFO  c.e.logbackdemo.com.spring.evevt.MyEventListener - 收到自定义事件
 2022-01-17 09:50:55.053 [main] INFO  c.e.logbackdemo.com.spring.evevt.MyEventPublisher - 自定义事件myevent发布完成

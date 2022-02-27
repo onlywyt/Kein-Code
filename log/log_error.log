@@ -12,7 +12,7 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
-2022-01-04 22:46:19.338 [http-nio-9999-exec-3] ERROR com.example.logbackdemo.LogbackdemoApplication - logback整合成功了
+2022-01-04 22:46:19.338 [http-nio-9999-exec-3] ERROR LogbackdemoApplication - logback整合成功了
 2022-01-04 22:46:55.904 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.pattern.parser.Compiler@207b8649 - There is no conversion class registered for composite conversion word [clr]
@@ -49,7 +49,7 @@ ERROR in ch.qos.logback.core.pattern.parser.Compiler@207b8649 - [wEx] is not a v
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:296)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.example.logbackdemo.LogbackdemoApplication.main(LogbackdemoApplication.java:25)
+	at LogbackdemoApplication.main(LogbackdemoApplication.java:25)
 Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
 ERROR in ch.qos.logback.core.pattern.parser.Compiler@207b8649 - There is no conversion class registered for composite conversion word [clr]
 ERROR in ch.qos.logback.core.pattern.parser.Compiler@207b8649 - Failed to create converter for [%clr] keyword
