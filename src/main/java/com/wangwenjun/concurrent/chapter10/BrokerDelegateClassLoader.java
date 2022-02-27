@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 /**
  * @program: source-demo
- * @description:
+ * @description: /Users/yingtaowang/Desktop/classloader2/com/wangwenjun/concurrent/chapter10/SimpleClass.class
  * @ClassName：BrokerDelegateClassLoader
  * @author: Mr.Wang
  * @create: 2022-02-25 14:13
