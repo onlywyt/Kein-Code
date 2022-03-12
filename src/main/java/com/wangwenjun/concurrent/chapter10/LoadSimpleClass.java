@@ -1,5 +1,6 @@
 package com.wangwenjun.concurrent.chapter10;
 
+
 import java.nio.file.Paths;
 
 /**
@@ -15,6 +16,8 @@ public class LoadSimpleClass {
         BrokerDelegateClassLoader classLoader = new BrokerDelegateClassLoader(Paths.get("/Users/yingtaowang/Desktop/classloader2"),null);
         Class<?> aClass = classLoader.loadClass("com.wangwenjun.concurrent.chapter10.SimpleClass");
         System.out.println(classLoader.getParent());
+        //类加载器是BrokerDelegateClassLoader
+        System.out.println(aClass.getClassLoader());
         aClass.newInstance();
 
 
