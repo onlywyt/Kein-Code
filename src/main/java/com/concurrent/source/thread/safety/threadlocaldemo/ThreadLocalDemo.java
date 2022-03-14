@@ -40,6 +40,7 @@ public class ThreadLocalDemo {
                 try {
                     System.out.println(parse("2022-09-09 16:32:10"));
                 } catch (Exception exception){
+
                     exception.printStackTrace();
                 }
             });
