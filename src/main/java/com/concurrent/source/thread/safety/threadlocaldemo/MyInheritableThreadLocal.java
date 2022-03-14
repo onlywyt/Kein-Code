@@ -1,4 +1,4 @@
-package com.concurrent.source.thread.safety;
+package com.concurrent.source.thread.safety.threadlocaldemo;
 
 
 import com.alibaba.fastjson.JSONObject;

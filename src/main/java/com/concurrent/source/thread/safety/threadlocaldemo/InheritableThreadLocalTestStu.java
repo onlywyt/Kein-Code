@@ -1,4 +1,6 @@
-package com.concurrent.source.thread.safety;
+package com.concurrent.source.thread.safety.threadlocaldemo;
+
+import com.concurrent.source.thread.safety.Stu;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
