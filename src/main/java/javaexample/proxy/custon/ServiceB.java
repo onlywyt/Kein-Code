@@ -1,12 +1,17 @@
-package javaexample.proxy.custon;/**
-* @program: source-demo
-*
-* @description: 
+package javaexample.proxy.custon;
 
-* @ClassName：ServiceB
+import javaexample.proxy.annotation.SimpleSingleton;
 
-* @author: Mr.Wang
-*
-* @create: 2022-03-14 14:12
-**/public class ServiceB {
+/**
+ * @program: source-demo
+ * @description:
+ * @ClassName：ServiceB
+ * @author: Mr.Wang
+ * @create: 2022-03-14 14:12
+ **/
+@SimpleSingleton
+public class ServiceB {
+    public void action() {
+        System.out.println("action");
+    }
 }

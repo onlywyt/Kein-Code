@@ -1,12 +1,17 @@
-package javaexample.proxy.DI;/**
-* @program: source-demo
-*
-* @description: 
+package javaexample.proxy.DI;
 
-* @ClassName：Test
+import javaexample.proxy.custon.ServiceA;
 
-* @author: Mr.Wang
-*
-* @create: 2022-03-14 14:24
-**/public class Test {
+/**
+ * @program: source-demo
+ * @description:
+ * @ClassName：Test
+ * @author: Mr.Wang
+ * @create: 2022-03-14 14:24
+ **/
+public class Test {
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
+        ServiceA instance = CGLibContainer2.getInstance(ServiceA.class);
+        instance.callB();
+    }
 }
