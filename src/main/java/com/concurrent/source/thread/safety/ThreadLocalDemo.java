@@ -13,10 +13,11 @@ import java.util.concurrent.Executors;
  * @ClassName：ThreadLocalDemo
  * @author: Mr.Wang
  * @create: 2022-01-20 11:03
+ *  ThreadLocal 解决导致内存泄漏的方法：主动调用ThreadLocal中的remove方法。将ThreadLocal对象的值删除
  **/
 public class ThreadLocalDemo {
     private static final String DATEFORMAT = "yyyy-MM-dd HH:mm:ss";
-    private static ThreadLocal<DateFormat> dateFormatThreadLocal=new ThreadLocal<DateFormat>();
+    private static ThreadLocal<DateFormat> dateFormatThreadLocal=new ThreadLocal<>();
     private static DateFormat getDateFormat(){
         DateFormat dateFormat = dateFormatThreadLocal.get();
         //每个线程通过parse()方法做格式转化时，都可以获得一个完全独立的SimpleDateFormat实例，
@@ -24,6 +25,7 @@ public class ThreadLocalDemo {
         if (dateFormat==null){
             dateFormat=new SimpleDateFormat(DATEFORMAT);
             dateFormatThreadLocal.set(dateFormat);
+            dateFormatThreadLocal.remove();
         }
         return dateFormat;
     }
