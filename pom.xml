@@ -64,6 +64,19 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.79</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+        <!-- 增强版ThradLocal 可以实现父线程本地变量的拷贝-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.12.1</version>
+        </dependency>
 
         <!--
             实现对Spring Boot Admin Server的自动化配置
@@ -156,8 +169,10 @@
             <artifactId>gson</artifactId>
             <version>2.3.1</version>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+        </dependency>
 
 
     </dependencies>
