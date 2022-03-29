@@ -34,6 +34,12 @@ public class SimpleCGLibDemo {
         }
     }
 
+    /**
+     * 在Dev分支加一个注释
+     * @param clazz
+     * @param <T>
+     * @return
+     */
     private static <T> T getProxy(Class<T> clazz){
         Enhancer enhancer = new Enhancer();
         //使用了cglib的Enhancer类。Enhancer类的setSuperclass设置被代理的类
