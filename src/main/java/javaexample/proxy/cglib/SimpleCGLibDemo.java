@@ -25,10 +25,10 @@ public class SimpleCGLibDemo {
         @Override
         public Object intercept(Object o,
                                 Method method,
-                                Object[] objects,
+                                Object[] args,
                                 MethodProxy methodProxy) throws Throwable {
             System.out.println("entering:" + method.getName());
-            Object result = methodProxy.invokeSuper(o, objects);
+            Object result = methodProxy.invokeSuper(o, args);
             System.out.println("leaving:" + method.getName());
             return result;
         }
